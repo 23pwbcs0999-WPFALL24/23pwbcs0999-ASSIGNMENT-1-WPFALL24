@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+}
+.website_name{
+    width: 50%;
+    height: 40px;
+    text-align: center;
+}
+.website_name>h1{
+    font-size: 3rem;
+}
+.nav{
+    list-style-type: none;
+}
+.nav>li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.nav>li>a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+}
+.nav>li>a:hover{
+    color: lightcoral;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+    background-color: #a54242;
+}
+.why_us{
+    width: 20%;
+    height: 400px;
+    background-color: #e57373;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.why_us>h1{
+    font-size: 5rem;
+}
+.why_us>p{
+    font-size: 1.3rem;
+}
+.hero_img{
+    width: 30%;
+    height: 400px;
+    background-image: url(gym.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 700px;
+    background-color: #ffd580;
+}
+.slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 600px;
+    background-color: #e69138;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.workout_img{
+    width: 45%;
+    height: 200px;
+    /* background-color: antiquewhite; */
+    background-image: url(workout.png);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.nutrition_img{
+    width: 45%;
+    height: 200px;
+    /* background-color: antiquewhite; */
+    background-image: url(nutrition.png);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.gallery_img{
+    width: 45%;
+    height: 200px;
+    /* background-color: antiquewhite; */
+    background-image: url(gallery.png);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+button{
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #c27685;
+}
+button:hover{
+    background-color: #e57373;
+}
+.slide>h1{
+    font-size: 3rem;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: grey;
+    color: black;
+}
